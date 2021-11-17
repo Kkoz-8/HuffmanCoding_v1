@@ -30,7 +30,7 @@ class HuffmanNode:
         return f"{self.left}_{self.right}"
 
 
-def huff_coding(node_or_char, string = ''):
+def huff_coding(node_or_char, string = ""):
     """huffman function to traverse the nodes and build the binary representation for traversed path"""
     
     #if statement code block will be run when we hit a string value; nodes data type ignored
@@ -104,7 +104,7 @@ bubble_sort(data_list) #initial sort on list to have it be in ascending order
 print("\nThe dummy data used for testing:\n",dummy_data)
 print("\nNested list of chars, sorted in ascending via frequency\n",data_list)
 
-#create a huffman tree of nodes
+#create huffman tree of nodes
 hufftree_nodes = huff_tree(data_list)
 
 print("\nFinal HuffmanNode:\n",hufftree_nodes[0][0])
